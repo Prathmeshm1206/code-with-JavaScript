@@ -23,3 +23,7 @@ console.log(newString);
 
 const anotherString = gameName.slice(-8,4) // In this we can put negative value also ans it works reversly
 console.log(anotherString)
+
+const newStringOne = "    hitesh   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
