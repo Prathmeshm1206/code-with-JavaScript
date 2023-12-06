@@ -36,3 +36,32 @@ const muFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+
+// ****************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "omkarmanecom"  //myYoutubename stored in stack
+
+let anothername = myYoutubename    // copy of myYoutubename is given to anothername in stack
+anothername ="chaiorcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={                    //stored in heap
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne   //referencing to the userOne data into heap
+
+userTwo.email="omakr@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//output: 
+// omakr@google.com
+// omakr@google.com
