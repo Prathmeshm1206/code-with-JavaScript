@@ -84,4 +84,18 @@ const navbar = ({company}) =>{ // replacement from props.company
 }
 navbar(company ="omkar")
 
-//
+// JSON
+
+// {
+//     "name": "omakr",
+//     "consurseName": "js in hindi",
+//     "price": "free"
+// }
+
+// JOSON in array format
+[
+    {},
+    {},
+    {}
+]
+
