@@ -65,3 +65,23 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));  
+
+
+//*************************** De-Structure *************************
+
+const course ={
+    consursename: "js in hindi",
+    price: "999",
+    courseInstructor: "omkar"
+}
+//course.courseInstructor
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+const navbar = ({company}) =>{ // replacement from props.company
+
+}
+navbar(company ="omkar")
+
+//
