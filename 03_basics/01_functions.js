@@ -30,4 +30,23 @@ function loginUserMessage(username) {
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage())
+//console.log(loginUserMessage())
+
+function calculatePrice(val1, val2,...num1){   //==> rest or spread operator
+ return num1
+}
+console.log(calculatePrice(200,500,400,2000))
+
+
+//***********************  Object and Function ***********************
+const user ={
+    username:"hitesh",
+    price: 199
+}
+
+function handleObject(anyobject){
+   console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+
+}
+
+handleObject(user)
