@@ -4,4 +4,4 @@
 
 ( (name)=>{
     console.log(`DB CONNECTED TWO $(name)`);
-})('hitesh')  //==> passed as parameter
+})('hitesh')  //==> passed as parameter 
